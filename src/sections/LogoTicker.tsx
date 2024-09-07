@@ -23,7 +23,7 @@ export const LogoTicker = () => {
                 echoLogo,
                 celestialLogo,
               ].map((logo) => (
-                <img src={logo.src} alt={logo.src} className="h-6 w-auto" />
+                <img src={logo.src} alt={logo.src} key={logo.src} className="h-6 w-auto" />
               ))}
             </div>
           </div>
