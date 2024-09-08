@@ -94,8 +94,7 @@ const FeatureTab = (
   return (
     <div
       ref={tabRef}
-      key={props.title}
-      className="border border-white/15 flex p-2.5 rounded-xl gap-2.5 items-center lg:flex-1 relative"
+      className="border border-white/15 flex p-2.5 rounded-xl gap-2.5 items-center lg:flex-1 cursor-pointer relative"
       onMouseEnter={handleTabHover}
       onClick={props.onClick}
     >
@@ -179,6 +178,7 @@ export const Features = () => {
           {tabs.map((tab, index) => (
             <FeatureTab
               {...tab}
+              key={index}
               selected={selectedTab === index}
               onClick={() => handleSelectTab(index)}
             />

@@ -103,7 +103,7 @@ export const Hero = () => {
           Nex SEO
         </h1>
         <p className="text-lg md:text-xl text-white/70 mt-5 text-center max-w-xl mx-auto">
-          Elevate your site's visibility effortlessly with AI, where artificial
+          Elevate your site&apos;s visibility effortlessly with AI, where artificial
           intelligence meets SEO.
         </p>
         <div className="flex justify-center mt-5">
