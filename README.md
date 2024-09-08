@@ -4,7 +4,7 @@ This is a clean and modern landing page built for a fictional company called **N
 
 ## Demo
 
-[Insert Demo Link Here]
+https://nex-seo.vercel.app/
 
 ## Table of Contents
 
