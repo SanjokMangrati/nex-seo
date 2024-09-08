@@ -57,7 +57,7 @@ export const Testimonials = () => {
                     <Image
                       src={testimonial.avatarImg}
                       alt={`Avatar for ${testimonial.name}`}
-                      className="h-11 w-11 rounded-lg grayscale border"
+                      className="h-11 w-11 rounded-lg grayscale"
                     />
                   </div>
                   <div>
